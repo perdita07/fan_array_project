@@ -4,6 +4,8 @@ Experimental characterisation of a PC-fan array's electrical, aerodynamic, and c
 
 This repo contains the full analysis pipeline as a sequence of Jupyter notebooks, from raw datalogger exports through to a validated inverse model (`Duty = f(Voltage)`) used for control, plus the supporting project documentation (reports, review presentations).
 
+### Additional resources (reference papers, logs, readings, etc): https://drive.google.com/drive/folders/1X09Ndj4WAZ8-77vm1_YXIhqzWv36yzKz?usp=sharing
+
 ## What's in here
 
 The project answers a few core questions about the fan array:
