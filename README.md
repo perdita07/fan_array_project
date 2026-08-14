@@ -29,8 +29,7 @@ The notebooks are numbered in the order you'd run them — each builds on output
 | 05 | `05_Voltage_to_Duty_Inverse_Mapping.ipynb` | The core modelling notebook: builds and validates the inverse model `Duty = f(Voltage)` used for closed-loop control. Compares candidate model forms (linear, polynomial, exponential, log) by RMSE/MAE/R², and validates the chosen model against synthetic voltage traces. |
 | 06 | `06_Duty_RPM_Repeated_Trials.ipynb` | Independent experimental replicates of the duty–RPM relationship across multiple measurement sessions, used to assess repeatability. |
 | 07 | `07_Correlation_Analysis.ipynb` | Pearson correlation between duty cycle and RPM/velocity metrics, with an explicit audit table showing which datasets went into each correlation. |
-| 08 | `08_Project_Planning.ipynb` | Administrative Gantt-style work plan — not scientific analysis, kept separate from the rest of the pipeline. |
-| 09 | `09_Experiments_and_Exploratory_Work.ipynb` | An archive of every superseded, abandoned, or exploratory cell from the original working notebook, grouped by sub-theme. Nothing here feeds the "final" results — it's preserved so the modelling decisions in notebooks 03–07 are traceable and nothing tried along the way is lost. |
+| 08 | `09_Experiments_and_Exploratory_Work.ipynb` | An archive of every superseded, abandoned, or exploratory cell from the original working notebook, grouped by sub-theme. Nothing here feeds the "final" results — it's preserved so the modelling decisions in notebooks 03–07 are traceable and nothing tried along the way is lost. |
 
 There's also `fan_array_aerodynamics.ipynb` at the repo root, which covers the aerodynamic/flow-field side of the project separately from the electrical characterisation pipeline above.
 
