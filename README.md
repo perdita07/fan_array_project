@@ -110,4 +110,4 @@ fan_array_project/
 
 ## License
 
-No license file is currently included — treat this as "all rights reserved" by default unless the author adds one.
+This work is licensed under CC BY-NC-ND 4.0 (Attribution–NonCommercial–NoDerivatives). You're welcome to view and share this work with credit, but non-commercial use only, and no modified/derivative versions may be redistributed. This project reflects unpublished academic work — for reuse beyond what the license permits, please contact the author.
