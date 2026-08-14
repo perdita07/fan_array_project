@@ -1,0 +1,15 @@
+# Local raw data (download from the Drive link in the README instead)
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
