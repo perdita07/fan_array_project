@@ -88,24 +88,6 @@ The notebooks expect raw sensor exports (multimeter/tachometer logs, anemometer 
 
 > **Note:** file paths and data filenames are currently hardcoded per-notebook rather than centralised in a config file. If you're adapting this pipeline to new data, expect to update paths inside each notebook individually — see the "Maintainability Recommendations" section of `REPO_STRUCTURE_PLAN.md` for suggested refactors (a shared config module, reusable data-loading/fitting helper functions, etc.) that would make this easier going forward.
 
-## Repo structure
-
-```
-fan_array_project/
-├── 01_Data_Preprocessing.ipynb
-├── 02_Sensor_Voltage_Time_Characterisation.ipynb
-├── 03_Duty_Cycle_Sweep_RPM_Response.ipynb
-├── 04_Fan_Log_Duty_RPM_Calibration.ipynb
-├── 05_Voltage_to_Duty_Inverse_Mapping.ipynb
-├── 06_Duty_RPM_Repeated_Trials.ipynb
-├── 07_Correlation_Analysis.ipynb
-├── 08_Project_Planning.ipynb
-├── 09_Experiments_and_Exploratory_Work.ipynb
-├── fan_array_aerodynamics.ipynb
-├── project_report.docx
-├── REPO_STRUCTURE_PLAN.md
-└── *.pptx                     # review/results presentations
-```
 
 ## License
 
